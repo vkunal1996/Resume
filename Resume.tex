@@ -1,0 +1,106 @@
+\documentclass[a4paper,11pt]{article}
+%\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[margin=0.33in]{geometry}
+\usepackage{enumitem}
+\usepackage{tabto}
+\usepackage{fontawesome5}
+\titleformat{\section}
+{\small \bfseries \uppercase}
+{}
+{-0.8em}
+{}[\titlerule]
+\titleformat{\subsection}
+{\bfseries\Small}
+{}
+{0.0em}
+{}
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}
+\titlespacing{\subsection}{0em}{0em}{0em}
+\titlespacing{\subsubsection}{0em}{0em}{0em}
+\setlist[itemize]{itemsep=0em}
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge\bfseries \uppercase
+\theauthor}
+\vspace{0em}
+% {\small \normalfont (778) 917 -- 6940 --- vermak1996@outlook.com --- www.linkedin.com/in/vkunal1996 ---  https://github.com/vkunal1996 --- vermakunal.com --- Vancouver, BC, Canada}
+\end{center}
+}
+\begin{document}
+\color{darkgray}
+\title{Resume}
+\author{Kunal Verma}
+\maketitle
+\begin{center}
+    \bfseries \faIcon{mobile-alt}\hspace{0.4em}(778)--917--6940 \textbullet\ \faIcon{envelope}\hspace{0.4em}vermak1996@outlook.com \textbullet\ \faIcon{linkedin}\hspace{0.4em}\href {https://www.linkedin.com/in/vkunal1996}{https://www.linkedin.com/in/vkunal1996} \textbullet\ \faIcon{github}\hspace{0.4em}\href{https://www.github.com/vkunal1996}{https://www.github.com/vkunal1996} \textbullet\ \faIcon{globe}\hspace{0.4em}\href{https://www.vermakunal.com}{https://www.vermakunal.com}
+\end{center}
+\section{Employment}
+\subsection{Graduate Research Assistant \hspace{24em} Vancouver, CA}
+\emph{Natural Language Processing Lab at The University of British Columbia \hspace{9.4em} Jun'20 --- Aug'20}
+\begin{itemize}
+    \item Collected \textbf{1 Billion Tweets} of \textbf{1 Million users} from \textbf{268 countries} in \textbf{104} different language using Twitter Python API.
+    \item Inspected the inter-state mobility of the users in the US between January'20 to May'20
+    \item Investigated the Rank change of the \textbf{top 40 most visited domains} in 2020 comparing to 2019
+    \item Predicted the undefined languages using \textbf{langid}, \textbf{langdetect}, and \textbf{fasttext} models increasing the total number of detected languages from 67 to 100+ languages.
+    \item Operated \textbf{AraNet} on \textbf{1 Billion Arabic Tweets} to predicts sentiments, dialect, irony and age-gender of the users.
+\end{itemize}
+% \subsection{Data Science Trainee                                             Jalandhar, IN}
+% \subsubsection{\emph{Itronix Solution}}
+% \begin{itemize}
+%     \item 
+% \end{itemize}
+\section{Education}
+\subsection{University of British Columbia \hspace{23em}                   Vancouver, CA}
+\emph{Master of Engineering in Electrical and Computer Engineering \hspace{13.3em}         Sep'19 --- Jun'21}
+% \begin{itemize}
+%     \item Research Assistant @ Natural Language Processing Lab
+% \end{itemize}
+\vspace{0.8em}
+\subsection{Guru Nanak Dev University   \hspace{24.2em}                        Jalandhar, IN}    
+\emph{Bachelor of Technology in Computer Science and Engineering \hspace{13.7em}          Jun'15 ---  Jun'19}
+% \begin{itemize}
+%     \item Coding Head @ Technical Student Society and Engineering Student Society
+%     \item Coding Contest Organizer @ Hackerearth.com
+% \end{itemize}
+\section{SKILLS}
+\subsubsection{Technical Skills: }\hspace{0.4em}Java, Python, JavaScript, C++, HTML, CSS, BootStrap, {\LaTeX}
+\subsubsection{Databases: }\hspace{0.4em}MySQL, MongoDB, firebase
+\subsubsection{Framework and Tools: }\hspace{0.4em}NodeJS, ReactJS, NumPy, Pandas, Flask, Spark(Python), Hibernate, Spring, Struts, JSF, JSP, git, Heroku
+\subsubsection{Interests: }\hspace{0.4em}Machine Learning, Natural Language Processing, Cloud Computing
+\section{Projects}
+\subsection{\href{https://arxiv.org/abs/2005.06012}{Mega-COV: A Billion-Scale Dataset of 100+ Languages for COVID-19}}
+\begin{itemize}
+    \item Research Paper accepted at EACL2021 conference.
+    \item Generated a \textbf{Billion Scale} dataset to help researchers for studying pehnonmena related to pandemics.
+    \item Collected more than \textbf{1 Billion Tweets} from 268 countries using Tweeter Python API.
+    \item Researched and Examined the \textbf{top 20 languages} of the tweets.
+    \item Coordinated to develop a BERT-Base Multilingual Case model for detecting tweets related to COVID-19 with a significant accuracy of 94\%.
+\end{itemize}
+\subsection{\href{https://github.com/vkunal1996/CPEN400-ChatApp}{Client-Server Chat Application}}
+\begin{itemize}
+    \item Developed a client-server chat application using JavaScript, NoSQL, and NodeJS.
+    \item Examined different cross scripting attacks on the websites and sanitizing process to avoid such attacks.
+    \item Coded the functionality of creating groups, fetching messages from the database server, and connecting clients to the server in order to send and receive messages.
+\end{itemize}
+\subsection{\href{http://knowyoursentiment.herokuapp.com}{Emotional Polarity Classifier}}
+\begin{itemize}
+    \item Developed a web based application using flask and python to predict the sentiments of the feedback given by customers to the airline services.
+    \item Deployed and Evaluates different classical and deep learning models for the prediction process.
+    \item Deployed the whole web application and models on the heroku platform.
+\end{itemize}
+% \section{Volunteering}
+% \subsection{UBC NLP Group -  Member}
+% \begin{itemize}
+%     \item Crawling tweeter data for research purposes.
+%     \item Operating \textbf{Word2Vec} and \textbf{FastText} models for big data operations.
+%     \item Carrying out visual and graphical analysis to get the meaningful insights from the data
+% \end{itemize}
+\end{document}
