@@ -1,0 +1,119 @@
+\documentclass[a4paper,11pt]{article}
+%\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[margin=0.33in]{geometry}
+\usepackage{enumitem}
+\usepackage{tabto}
+\usepackage{fontawesome5}
+\titleformat{\section}
+{\small \bfseries \uppercase}
+{}
+{-0.8em}
+{}[\titlerule]
+\titleformat{\subsection}
+{\bfseries\Small}
+{}
+{0.0em}
+{}
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}
+\titlespacing{\subsection}{0em}{0em}{0em}
+\titlespacing{\subsubsection}{0em}{0em}{0em}
+\setlist[itemize]{itemsep=0em}
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge\bfseries \uppercase
+\theauthor}
+\vspace{0em}
+% {\small \normalfont (778) 917 -- 6940 --- vermak1996@outlook.com --- www.linkedin.com/in/vkunal1996 ---  https://github.com/vkunal1996 --- vermakunal.com --- Vancouver, BC, Canada}
+\end{center}
+}
+\begin{document}
+\color{darkgray}
+\title{Resume}
+\author{Kunal Verma}
+\maketitle
+
+%Introduction Section
+\begin{center}
+    \bfseries \faIcon{mobile-alt}\hspace{0.4em}(778)--917--6940\hspace{1.0em}  \faIcon{envelope}\hspace{0.4em}kunalverma2210@gmail.com \hspace{1.0em}
+    \faIcon{linkedin}\hspace{0.4em}\href {https://www.linkedin.com/in/vkunal1996}{https://www.linkedin.com/in/vkunal1996} \hspace{1.0em} \faIcon{github}\hspace{0.4em}\href{https://www.github.com/vkunal1996}{https://www.github.com/vkunal1996}\hspace{1.4em}  
+    \faIcon{globe}\hspace{0.4em}\href{https://www.vermakunal.com}{https://www.vermakunal.com}
+\end{center}
+
+% Employment Section
+\section{Employment}
+\subsection{Graduate Research Assistant \hspace{24em} Vancouver, CA}
+\emph{Natural Language Processing Lab at The University of British Columbia \hspace{9.4em} Jun'20 --- Aug'20}
+\begin{itemize}
+    \item Collected \textbf{1 Billion Tweets} of \textbf{1 Million users} from \textbf{268 countries} in \textbf{104} different language using Twitter Python API.
+    \item Performed Big Data operations using Apache Spark for analysis on human behaviour on social media before and during Covid-19 pandemic. 
+    \item Investigated the inter state mobility and web site visiting behaviour of the users in 2020 comparing to 2019.
+\end{itemize}
+\subsection{Developer Intern          \hspace{29em}                                   Jalandhar, IN}
+\emph{Itronix Solution \hspace {33em} Jan'19 --- Jun'19}
+\begin{itemize}
+    \item Developed a Web based application to predict the sentiments of the user feedback for an airline service.
+    \item Deployed front end of the Web application using Python, Flask and JavaScript.
+    \item Deployed the Machine Learning model as a flask API service to derive the sentiments from the user provided reviews and provided summary in the form of Dashboard. 
+\end{itemize}
+
+%Education Section
+\section{Education}
+\subsection{University of British Columbia \hspace{23em}                   Vancouver, CA}
+\emph{Master of Engineering in Electrical and Computer Engineering \hspace{13.3em}         Sep'19 --- Jun'21}
+% \begin{itemize}
+%     \item Research Assistant @ Natural Language Processing Lab
+% \end{itemize}
+\vspace{0.1em}
+\subsection{Guru Nanak Dev University   \hspace{24.2em}                        Jalandhar, IN}    
+\emph{Bachelor of Technology in Computer Science and Engineering \hspace{13.7em}          Jun'15 ---  Jun'19}
+
+% \begin{itemize}
+%     \item Coding Head @ Technical Student Society and Engineering Student Society
+%     \item Coding Contest Organizer @ Hackerearth.com
+% \end{itemize}
+
+% Projects Section
+\section{Projects}
+\subsection{\href{https://github.com/vkunal1996/CPEN400-ChatApp}{Client-Server Chat Application}}
+\begin{itemize}
+    \item Developed a client-server chat application using JavaScript, NoSQL, and NodeJS.
+    \item Implemented the real time messaging service using the web socket module by which various clients can send/receive messages simultaneously.
+\end{itemize}
+\subsection{\href{http://knowyoursentiment.herokuapp.com}{Feedback Emotion Prediction}}
+\begin{itemize}
+    \item Developed and deployed a web based application using python, flask and JavaScript which predicts the sentiments of the customer's feedback for an airline service. 
+\end{itemize}
+\subsection{\href{https://github.com/vkunal1996/CodeHunt-Desktop-Based-Application}{Quiz Application}}
+\begin{itemize}
+    \item Developed a Java based Swing GUI application for programming quiz. Implemented multi threaded architecture for timer functionality.
+    \item Programmed a random function to generate a unique code each time for a test session. 
+\end{itemize}
+\subsection{\href{https://arxiv.org/abs/2005.06012}{Mega-COV: A Billion-Scale Dataset of 100+ Languages for COVID-19}}
+\begin{itemize}
+    \item Investigated the User's behaviour on Twitter during pandemic and published the paper in \textbf{EACL2021} conference. 
+\end{itemize}
+
+
+
+%Skills Section
+\section{SKILLS}
+\subsubsection{Technical Skills: }\hspace{0.4em}Java, Python, JavaScript, {\LaTeX}, MySQL, MongoDB
+\subsubsection{Framework and Tools: }\hspace{0.4em}NodeJS, ReactJS, NumPy, Pandas, Matplotlib, Flask, Spark(Python), Hibernate, Spring, Struts, JSF, JSP, Git, Heroku
+\subsubsection{Interests: }\hspace{0.4em}Machine Learning, Natural Language Processing, Cloud Computing
+
+% \section{Volunteering}
+% \subsection{UBC NLP Group -  Member}
+% \begin{itemize}
+%     \item Crawling tweeter data for research purposes.
+%     \item Operating \textbf{Word2Vec} and \textbf{FastText} models for big data operations.
+%     \item Carrying out visual and graphical analysis to get the meaningful insights from the data
+% \end{itemize}
+\end{document}
